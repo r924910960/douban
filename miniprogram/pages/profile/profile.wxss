@@ -1,0 +1,20 @@
+/* pages/profile/profile.wxss */
+/* 将头像修改圆形 */
+/* 1.父元素相对定位 */
+/* 2.子元素绝对定位圆角50% */
+.profile{
+  background: #a54845;
+  height:400rpx;
+  text-align: center;
+  position: relative;
+  width:100%;
+}
+.profile-img{
+  position: absolute;
+  width:200rpx;height:200rpx;
+  display: block;
+  border-radius: 50%;
+  overflow: hidden;
+  left:50%;
+  transform:translate(-50%,60rpx);
+}

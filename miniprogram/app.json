@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/mymovie/mymovie",
+    "pages/home/home",
+    "pages/detail/detail",
+    "pages/profile/profile",
+    "pages/map/map"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar":{
+    "color":"#ccc",
+    "selectedColor":"#fc0",
+    "list":[
+      {
+        "pagePath":"pages/home/home",
+        "text":"首页",
+        "iconPath":"images/home.png",
+        "selectedIconPath":"images/home-active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "个人中心",
+        "iconPath": "images/profile.png",
+        "selectedIconPath": "images/profile-active.png"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "text": "地图",
+        "iconPath": "images/map.png",
+        "selectedIconPath": "images/map-active.png"
+      },
+      {
+        "pagePath": "pages/mymovie/mymovie",
+        "text": "我的",
+        "iconPath": "images/movie.png",
+        "selectedIconPath": "images/movie-active.png"
+      }
+    ]
+  }
+}
